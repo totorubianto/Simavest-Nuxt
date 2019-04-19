@@ -1,7 +1,10 @@
 <template>
-  <div class="height-100 sign-container">
-    <div class="container  " id="container">
-      <div class="form-container  sign-up-container">
+  <div>
+    <Card/>
+    <div class="height-100 sign-container">
+
+    <div class="container" id="container">
+      <div class="form-container sign-up-container">
         <form action="#">
           <h1>Create Account</h1>
           <div class="social-container">
@@ -54,16 +57,25 @@
           <div class="overlay-panel overlay-right">
             <h1>Hello, Friend!</h1>
             <p>Enter your personal details and start journey with us</p>
-            <nuxt-link class="button ghost " id="signUp" to="signup">Sign Up</nuxt-link>
+            <nuxt-link class="button ghost" id="signUp" to="signup">Sign Up</nuxt-link>
           </div>
         </div>
       </div>
+    </div>
+  
     </div>
   </div>
 </template>
 
 <script>
-export default {};
+import Card from "~/components/dashboard/card"
+export default {
+  transition: 'fade',
+  layout: 'home',
+  components:{
+    Card,
+}
+};
 </script>
 
 <style scoped>
@@ -72,11 +84,10 @@ export default {};
 * {
   box-sizing: border-box;
 }
-.padding-top-100{
-    padding-top: 100px !important;
+.padding-top-100 {
+  padding-top: 100px !important;
 }
 .sign-container {
-    
   background: #f6f5f7;
   display: flex;
   justify-content: center;
@@ -197,8 +208,8 @@ input {
 .container.right-panel-active .sign-in-container {
   transform: translateX(100%);
 }
-.height-100{
-    height: 95vh;
+.height-100 {
+  height: 95vh;
 }
 .sign-up-container {
   left: 0;

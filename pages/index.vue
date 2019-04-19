@@ -1,7 +1,7 @@
 <template>
   <section class="section">
-    <nuxt-link to="/auth/login">login</nuxt-link>
-    <nuxt-link to="/auth/signup">signup</nuxt-link>
+    <nuxt-link to="login">login</nuxt-link>
+    <nuxt-link to="signup">signup</nuxt-link>
   </section>
 </template>
 
@@ -9,6 +9,7 @@
 import BLogo from '@/components/Logo'
 
 export default {
+  transition: 'fade',
   name: 'HomePage',
 }
 </script>
