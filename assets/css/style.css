@@ -1,0 +1,15 @@
+body{
+    font-family: 'Montserrat', sans-serif;
+}
+
+.has-text-mystyle{
+  color: #666666;
+}
+
+.margin-top-22{
+    margin-top: 22px;
+}
+
+.padding-right-11{
+    padding-right: 11px;
+}
