@@ -1,5 +1,17 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat:400,500,600,700');
 body{
     font-family: 'Montserrat', sans-serif;
+}
+
+/* Display */
+.display-flex{
+    display: flex;
+}
+
+/* Font */
+.no-bold{
+    font-weight: 300;
+    color: black !important;
 }
 
 .has-text-mystyle{
@@ -9,7 +21,25 @@ body{
 .margin-top-22{
     margin-top: 22px;
 }
+.margin-right-50{
+    margin-right: 50px;
+}
+.margin-left-50{
+    margin-left: 50px;
+}
+.margin-left-30{
+    margin-left: 30px;
+}
 
+
+
+/* Padding */
 .padding-right-11{
     padding-right: 11px;
+}
+.padding-right-30{
+    padding-right: 30px;
+}
+.padding-left-30{
+    padding-left: 30px;
 }
