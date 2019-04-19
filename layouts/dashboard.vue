@@ -2,7 +2,7 @@
   <div>
     <Navbar/>
     <Hero/>
-    
+
     <nuxt/>
   </div>
 </template>

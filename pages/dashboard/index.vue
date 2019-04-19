@@ -1,19 +1,15 @@
 <template>
-    <div>
-        <Card/>
-    </div>
+  <div>
+    <Card/>
+  </div>
 </template>
 
 <script>
-import Card from "~/components/dashboard/card"
+import Card from "~/components/dashboard/card";
 export default {
-layout:'dashboard',
-components:{
-    Card,
-}
-}
+  layout: "dashboard",
+  components: {
+    Card
+  }
+};
 </script>
-
-<style>
-
-</style>

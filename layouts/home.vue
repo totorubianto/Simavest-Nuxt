@@ -1,13 +1,9 @@
 <template>
   <div>
-    
     <nuxt/>
   </div>
 </template>
 
 <script>
-
-export default {
-  
-};
+export default {};
 </script>

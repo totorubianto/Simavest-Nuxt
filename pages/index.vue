@@ -6,10 +6,10 @@
 </template>
 
 <script>
-import BLogo from '@/components/Logo'
+import BLogo from "@/components/Logo";
 
 export default {
-  transition: 'fade',
-  name: 'HomePage',
-}
+  transition: "fade",
+  name: "HomePage"
+};
 </script>

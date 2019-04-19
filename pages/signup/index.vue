@@ -1,7 +1,7 @@
 <template>
-    <div class="height-100 sign-container">
-    <div class="container right-panel-active " id="container">
-      <div class="form-container  sign-up-container">
+  <div class="height-100 sign-container">
+    <div class="container right-panel-active" id="container">
+      <div class="form-container sign-up-container">
         <form action="#">
           <h1>Create Account</h1>
           <div class="social-container">
@@ -41,9 +41,7 @@
 </template>
 
 <script>
-export default {
-
-}
+export default {};
 </script>
 
 <style scoped>
@@ -52,11 +50,10 @@ export default {
 * {
   box-sizing: border-box;
 }
-.padding-top-100{
-    padding-top: 100px !important;
+.padding-top-100 {
+  padding-top: 100px !important;
 }
 .sign-container {
-    
   background: #f6f5f7;
   display: flex;
   justify-content: center;
@@ -165,8 +162,8 @@ input {
 .container.right-panel-active .sign-in-container {
   transform: translateX(100%);
 }
-.height-100{
-    height: 95vh;
+.height-100 {
+  height: 95vh;
 }
 .sign-up-container {
   left: 0;
