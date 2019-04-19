@@ -34,22 +34,24 @@
                 </p>
               </div>
             </div>
-                   <a class="navbar-item">Daftar Investasi</a>
-              <a class="navbar-item">Tabungan</a>
-              <a class="navbar-item">History</a>
+            <a class="navbar-item">Daftar Investasi</a>
+            <a class="navbar-item">Tabungan</a>
+            <a class="navbar-item">History</a>
+            
           </div>
 
           <div class="navbar-end">
-            
-       
-            
-
-            <div class="navbar-item has-dropdown is-hoverable hidden paddingleft20px">
-              <div class="navbar-link not-down-arrow ">
-                <i class="fa fa-bell"></i>
-                <span class="menu-responsive"></span>
+            <a class="navbar-item">
+              <div class="saldo">
+                Saldo : 2.000.000
               </div>
-              <div class="navbar-dropdown is-right is-boxed">
+            </a>
+            <div class="navbar-item has-dropdown is-hoverable hidden paddingleft20px">
+              <div class="navbar-link not-down-arrow">
+                <i class="fa fa-bell"></i>
+                <span class="menu-responsive">Notifikasi</span>
+              </div>
+              <div class="navbar-dropdown menu-responsive-hidden is-right is-boxed">
                 <a class="navbar-item is-bold" href="#">Hari Ini</a>
 
                 <a class="navbar-item" href="#">
@@ -125,6 +127,7 @@
         </div>
       </div>
     </nav>
+    <div class="height"></div>
   </div>
 </template>
 
@@ -139,6 +142,15 @@ export default {
 </script>
 
 <style>
+
+/* Coba */
+.height{
+height:100px;
+background-color: #363636;
+}
+
+
+
 .navbar {
   height: 80px !important;
 }
@@ -153,6 +165,9 @@ export default {
   max-width: 100%;
   width: 100%;
 }
+ .input-header {
+    width: 300px !important;
+  }
 .cycle {
   border-radius: 50%;
 }
@@ -167,8 +182,41 @@ export default {
 .not-down-arrow:not(.is-arrowless) {
   padding-right: 1rem;
 }
-.input-header {
-  width: 400px !important;
+.saldo{
+  border-radius: 3px;
+  font-size: 16px !important;
+  color: rgb(0, 136, 32);
+  padding: 7px 15px;
+  background-color: #A1FFBF;
+  border: 1px solid #0AD237;
+}
+.menu-responsive{
+  display: none;
+}
+
+/* Media Screen */
+@media only screen and (max-width: 1089px) {
+  .navbar {
+    height: 50px !important;
+  }
+  
+}
+@media only screen and (max-width: 1200px) {
+  .input-header {
+    width: 200px !important;
+  }
+}
+@media only screen and (max-width: 720px) {
+  .input-header {
+    width: 100% !important;
+  }
+  .menu-responsive{
+    display: inline;
+    
+  }
+  .menu-responsive-hidden{
+    display: none;
+  }
 }
 </style>
 

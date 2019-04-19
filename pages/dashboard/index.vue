@@ -48,7 +48,27 @@
                   <p class="is-size-6 "><i class="fas fa-list padding-right-11"></i>Rumah</p>
                   <p class="is-size-6 "><i class="fas fa-list padding-right-11"></i>Keuntungan</p>
                   <div class="control margin-top-22">
-                    <input type="submit" class="button is-danger is-fullwidth" value="Invest">
+                    <input type="submit" class="button is-danger is-fullwidth is-outlined" value="Invest">
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="column is-4">
+              <div class="card">
+                <div class="card-image">
+                  <figure class="image is-4by3">
+                    <img
+                      src="https://bulma.io/images/placeholders/1280x960.png"
+                      alt="Placeholder image">
+                  </figure>
+                </div>
+                <div class="card-content">
+                  <h5 class="title is-6">Perumnas Teluk</h5>
+                  <p class="is-size-6 "><i class="fas fa-list padding-right-11"></i>Jl Angsana III</p>
+                  <p class="is-size-6 "><i class="fas fa-list padding-right-11"></i>Rumah</p>
+                  <p class="is-size-6 "><i class="fas fa-list padding-right-11"></i>Keuntungan</p>
+                  <div class="control margin-top-22">
+                    <input type="submit" class="button is-danger is-fullwidth is-outlined" value="Invest">
                   </div>
                 </div>
               </div>
