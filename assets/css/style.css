@@ -36,6 +36,16 @@ body {
   color: white;
 }
 
+/* has text green */
+.has-text-green{
+  color: #00b933;
+}
+
+/* inline h1 h2 */
+h1.inline {
+  display: inline !important;
+}
+
 /* Margin */
 .margin-top-22 {
   margin-top: 22px;
