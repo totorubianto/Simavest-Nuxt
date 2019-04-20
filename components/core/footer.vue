@@ -12,13 +12,16 @@
         </div>
         <div class="column is-3">
             <p class="is-6 title has-text-weight-semibold has-text-black-bis">Support By</p>
-            <p class="is-size-6">Arkademy</p>
-            <p class="is-size-6">Permata Bank</p>
+            <a href="#" class="has-text-mystyle"><p class="is-size-6">Arkademy</p></a>
+             <!-- <nuxt-link class="navbar-item" to="/">
+            <img src="~/assets/img/logo1.png">
+          </nuxt-link> -->
+            <a href="#" class="has-text-mystyle"><p class="is-size-6">Permata Bank</p></a>
         </div>
         <div class="column is-3">
             <p class="is-6 title has-text-weight-semibold has-text-black-bis">Partner</p>
-            <p class="is-size-6">Kitapintar</p>
-            <p class="is-size-6">sebuahstudio.com</p>
+            <a href="#" class="has-text-mystyle"><p class="is-size-6">Kitapintar</p></a>
+            <a href="#" class="has-text-mystyle"><p class="is-size-6">sebuahstudio.com</p></a>
         </div>
         <div class="column is-3">
             <p class="is-6 title has-text-weight-semibold has-text-black-bis">Partner</p>
