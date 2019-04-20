@@ -32,7 +32,7 @@
       </div>
     </div>
     <div class="padding-20 has-text-centered has-bg-img">
-      <p class="has-text-white">Copyright © Simalakama Team Ijal, Toto, dan Nur</p>
+      <p class="has-text-white">Copyright © Simalakama Team || All Rights Reverved</p>
     </div>
     </div>
   </div>

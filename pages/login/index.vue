@@ -25,7 +25,7 @@
             </b-field>
 
             <a href="#">Forgot your password?</a>
-            <button>Sign In</button>
+            <nuxt-link  class="button is-primary" id="signIn" to="dashboard">Sign In</nuxt-link>
           </form>
         </div>
         <div class="overlay-container">
@@ -50,7 +50,7 @@
 <script>
 export default {
   transition: "fade",
-  layout: "home"
+  layout: "login"
 };
 </script>
 
@@ -100,7 +100,7 @@ a {
   margin: 15px 0;
 }
 
-button {
+.button.is-primary {
   border-radius: 20px;
   border: 1px solid #ff4b2b;
   background-color: #ff4b2b;

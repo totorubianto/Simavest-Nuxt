@@ -25,10 +25,7 @@
                 <a class="navbar-item has-text-white">Documentation</a>
                 <span class="navbar-item">
                   <a class="button is-primary is-inverted">
-                    <span class="icon">
-                      <i class="fab fa-github"></i>
-                    </span>
-                    <span>Download</span>
+                    <span>Sign Up</span>
                   </a>
                 </span>
               </div>

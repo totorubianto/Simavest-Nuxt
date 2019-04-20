@@ -1,32 +1,35 @@
 <template>
   <div>
     <Hero/>
-    <div class="container relative top-300">
+    <div class="container relative top-300" style="margin-bottom:600px;">
       <div class="columns">
         <div class="column is-4">
-          <CardMenu/>
+          <nuxt-link id="saldo" to="saldo"><CardMenuSaldo /></nuxt-link>
         </div>
         <div class="column is-4">
-          <CardMenu/>
+          <nuxt-link id="needs" to="needs"><CardMenuNeeds /></nuxt-link>
         </div>
         <div class="column is-4">
-          <CardMenu/>
+          <nuxt-link id="needs" to="dream"><CardMenuDream /></nuxt-link>
         </div>
       </div>
     </div>
+    
   </div>
 </template>
 
 <script>
 import Hero from "@/components/tabungan/tabunganImpian/hero";
-import CardMenu from "@/components/tabungan/card_menu";
+import CardMenuSaldo from "@/components/tabungan/card_menu_saldo";
+import CardMenuNeeds from "@/components/tabungan/card_menu_needs";
+import CardMenuDream from "@/components/tabungan/card_menu_dream";
 export default {
-  data() {
-    return { imageUrl: require('~/assets/img/icons/kebutuhan.svg')}
-  },
+  
   components: {
     Hero,
-    CardMenu
+    CardMenuSaldo,
+    CardMenuNeeds,
+    CardMenuDream
   }
 };
 </script>

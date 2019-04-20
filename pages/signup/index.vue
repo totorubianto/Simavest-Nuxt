@@ -19,7 +19,7 @@
           <input type="text" placeholder="Name">
           <input type="email" placeholder="Email">
           <input type="password" placeholder="Password">
-          <button>Sign Up</button>
+          <nuxt-link  class="button is-primary" id="signUp" to="dashboard">Sign Up</nuxt-link>
         </form>
       </div>
       <div class="overlay-container">
@@ -27,7 +27,7 @@
           <div class="overlay-panel overlay-left">
             <h1>Welcome Back!</h1>
             <p>To keep connected with us please login with your personal info</p>
-            <button class="ghost" id="signIn">Sign In</button>
+            <nuxt-link  class="button ghost" id="signIn" to="login">Sign In</nuxt-link>
           </div>
           <div class="overlay-panel overlay-right">
             <h1>Hello, Friend!</h1>
@@ -41,7 +41,10 @@
 </template>
 
 <script>
-export default {};
+export default {
+  transition: "fade",
+  layout: "login"
+};
 </script>
 
 <style scoped>
@@ -90,7 +93,21 @@ a {
   margin: 15px 0;
 }
 
-button {
+.button.is-primary {
+  border-radius: 20px;
+  border: 1px solid #ff4b2b;
+  background-color: #ff4b2b;
+  color: #ffffff;
+  font-size: 12px;
+  font-weight: bold;
+  height: 48px;
+  border-radius: 48px;
+  padding: 12px 45px;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  transition: transform 80ms ease-in;
+}
+.button {
   border-radius: 20px;
   border: 1px solid #ff4b2b;
   background-color: #ff4b2b;
@@ -111,9 +128,10 @@ button:focus {
   outline: none;
 }
 
-button.ghost {
+.ghost {
   background-color: transparent;
   border-color: #ffffff;
+  border-radius: 100px;
 }
 
 form {
