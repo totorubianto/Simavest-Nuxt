@@ -3,7 +3,7 @@
       <Hero/>
     <section>
       <div class="container">
-        <div class="columns relative top-100">
+        <div class="columns relative top-100 padding-bottom-300">
           <div class="column is-8 padding-top-100">
             <div class="card">
               <div class="card-content">

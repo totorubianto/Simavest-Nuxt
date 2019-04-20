@@ -33,7 +33,8 @@
                   <p class="title has-text-grey padding-top-8 is-6">Terkumpul</p>
                   <p class="subtitle is-6">Rp. 50.230.000</p>
                   <div class="control margin-top-22">
-                    <nuxt-link  class="button is-danger is-fullwidth is-outlined" to="dashboard/:id">Invest</nuxt-link>
+                    
+                    <nuxt-link  to="../invest"><button class="button is-danger width-100 is-fullwidth is-outlined">Invest</button></nuxt-link>
                    
                   </div>
                 </div>

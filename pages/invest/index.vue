@@ -1,7 +1,7 @@
 <template>
   <div>
     <Hero/>
-    <div class="container relative top-300">
+    <div class="container relative top-300 padding-bottom-300">
       <div class="columns is-half is-centered">
         <div class="column is-7">
           <div class="card">

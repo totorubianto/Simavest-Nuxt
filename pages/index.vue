@@ -25,7 +25,7 @@
                 <a class="navbar-item has-text-white">Documentation</a>
                 <nuxt-link class="navbar-item" to="login">
                   <span class="navbar-item">
-                        <a class="button is-primary is-inverted">
+                        <a class="button is-danger is-inverted is-rounded">
                           <span>Sign Up</span>
                         </a>
                   </span>
@@ -204,7 +204,7 @@ export default {
 };
 </script>
 
-<style>
+<style scoped>
 .margin-bottom-50{
   margin-bottom: 100px;
 }
