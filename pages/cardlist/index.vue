@@ -1,15 +1,13 @@
 <template>
   <div>
     <div class="card is-horizontal">
+      <div class="card-image">
+        <figure class="image">
+          <img src="~assets/img/home1.jpg" alt="Placeholder image">
+        </figure>
+      </div>
       <div class="columns">
-        <div class="column is-3">
-          <div class="card-image">
-            <figure class="image is-128x128">
-              <img class="width-100" src="https://bulma.io/images/placeholders/256x256.png">
-            </figure>
-          </div>
-        </div>
-        <div class="column">
+        <div class="column is-6">
           <div class="card-content">
             <h5 class="title is-6">Green Taman Sutra</h5>
             <p class="is-size-6 is-vertical-center">
@@ -30,9 +28,16 @@
               </span>
               Keuntungan 15%
             </p>
-            <div class="progress-wrapper padding-top-22">
-              <progress class="progress is-danger is-small" value="90" max="100">90%</progress>
-            </div>
+          </div>
+        </div>
+        <div class="column is-5" style="margin-top: 74px;">
+          <div class="progress-wrapper">
+            <progress class="progress is-danger is-small" value="90" max="100">90%</progress>
+          </div>
+          <p class="title has-text-grey padding-top-8 is-6">Terkumpul</p>
+          <p class="subtitle is-6">Rp. 50.230.000</p>
+          <div class="control margin-top-22">
+            <nuxt-link class="button is-danger is-fullwidth is-outlined" to="dashboard/:id">Invest</nuxt-link>
           </div>
         </div>
       </div>
@@ -72,7 +77,7 @@ export default {
 }
 .card.is-horizontal .card-image .image img {
   height: 100%;
-  object-fit: cover;
+  object-fit: fill;
   object-position: center;
 }
 .card.is-horizontal .card-content {
