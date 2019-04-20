@@ -3,6 +3,38 @@ body {
   font-family: "Montserrat", sans-serif;
 }
 
+.container {
+  width: 100%;
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+@media (min-width: 576px) {
+  .container {
+    max-width: 540px;
+  }
+}
+
+@media (min-width: 768px) {
+  .container {
+    max-width: 720px;
+  }
+}
+
+@media (min-width: 992px) {
+  .container {
+    max-width: 960px;
+  }
+}
+
+@media (min-width: 1200px) {
+  .container {
+    max-width: 1140px;
+  }
+}
+
 /* Display */
 .display-flex {
   display: flex;
@@ -148,7 +180,10 @@ h1.inline {
 .has-text-pink{
   color: #f03680;
 }
-
+.has-bg-img {
+  background-image: linear-gradient(264deg, #ff8225, #ef3088);
+  background-size: cover;
+}
 .has-image-centered {
   margin-left: auto;
   margin-right: auto;

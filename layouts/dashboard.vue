@@ -74,18 +74,21 @@
         </div>
       </div>
     </div>
+    <Footer/>
   </div>
 </template>
 
 <script>
 import Navbar from "~/components/core/Navbar";
+import Footer from "~/components/core/footer";
 import Hero from "~/components/dashboard/hero";
 import Card from "~/components/dashboard/card";
 export default {
   components: {
     Navbar,
     Hero,
-    Card
+    Card,
+    Footer
   }
 };
 </script>
