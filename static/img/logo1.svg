@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="175px" height="49px" viewBox="0 0 175 49" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 53 (72520) - https://sketchapp.com -->
+    <title>Group 5</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="workshop_layout" transform="translate(-139.000000, -14.000000)">
+            <g id="Group-5" transform="translate(139.000000, 14.000000)">
+                <rect id="Rectangle" fill="#F54C67" x="0" y="0" width="49" height="49" rx="24.5"></rect>
+                <path d="M19,14 L36,14 L36,14 C36,16.7614237 33.7614237,19 31,19 L14,19 L14,19 C14,16.2385763 16.2385763,14 19,14 Z" id="Rectangle" fill="#FFFFFF"></path>
+                <path d="M19,22 L36,22 L36,22 C36,24.7614237 33.7614237,27 31,27 L14,27 L14,27 C14,24.2385763 16.2385763,22 19,22 Z" id="Rectangle-Copy" fill="#FFFFFF" transform="translate(25.000000, 24.500000) scale(-1, 1) translate(-25.000000, -24.500000) "></path>
+                <path d="M19,30 L36,30 L36,30 C36,32.7614237 33.7614237,35 31,35 L14,35 L14,35 C14,32.2385763 16.2385763,30 19,30 Z" id="Rectangle-Copy-2" fill="#FFFFFF"></path>
+                <text id="Simavest" font-family="Montserrat-Bold, Montserrat" font-size="25" font-weight="bold" fill="#474747">
+                    <tspan x="55.5" y="33">Simavest</tspan>
+                </text>
+            </g>
+        </g>
+    </g>
+</svg>

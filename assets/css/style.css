@@ -30,6 +30,11 @@ body {
   background-color: white !important;
   color: #f03286 !important;
 }
+/* Background Color */
+.background-green{
+  background-color: #00B933;
+  color: white;
+}
 
 /* Margin */
 .margin-top-22 {
@@ -50,6 +55,12 @@ body {
 }
 
 /* Padding */
+.padding-left-right-30{
+  padding-left: 30px;
+  padding-right: 30px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
 .padding-30{
   padding: 30px;
 }
