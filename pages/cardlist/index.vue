@@ -1,13 +1,14 @@
 <template>
   <div>
-    <div class="card is-horizontal">
-      <div class="card-image">
-        <figure class="image">
-          <img src="~assets/img/home1.jpg" alt="Placeholder image">
-        </figure>
-      </div>
-      <div class="columns">
-        <div class="column is-6">
+    <div class="card margin-0 padding-0">
+      <div class="card-content margin-0 padding-0">
+        <div class="columns margin-0 padding-0">
+        <div
+          class="column is-3"
+          :style="{ backgroundImage: 'url(' + require('@/assets/img/home1.jpg') + ')' }"
+        >
+        </div>
+        <div class="column is-5">
           <div class="card-content">
             <h5 class="title is-6">Green Taman Sutra</h5>
             <p class="is-size-6 is-vertical-center">
@@ -30,16 +31,19 @@
             </p>
           </div>
         </div>
-        <div class="column is-5" style="margin-top: 74px;">
-          <div class="progress-wrapper">
-            <progress class="progress is-danger is-small" value="90" max="100">90%</progress>
-          </div>
-          <p class="title has-text-grey padding-top-8 is-6">Terkumpul</p>
-          <p class="subtitle is-6">Rp. 50.230.000</p>
-          <div class="control margin-top-22">
-            <nuxt-link class="button is-danger is-fullwidth is-outlined" to="dashboard/:id">Invest</nuxt-link>
+        <div class="column is-4">
+          <div class="card-content">
+            <div class="progress-wrapper">
+              <progress class="progress is-danger is-small" value="90" max="100">90%</progress>
+            </div>
+            <p class="title has-text-grey padding-top-8 is-6">Terkumpul</p>
+            <p class="subtitle is-6">Rp. 50.230.000</p>
+            <div class="control margin-top-22">
+              <nuxt-link class="button is-danger is-fullwidth is-outlined" to="dashboard/:id">Invest</nuxt-link>
+            </div>
           </div>
         </div>
+      </div>
       </div>
     </div>
   </div>
@@ -47,40 +51,22 @@
 
 <script>
 export default {
-  layout: "dashboard"
+  layout: "dashboard",
+  data() {
+    return {
+      page: {
+        image: "toto.png"
+      }
+    };
+  }
 };
 </script>
 
 <style scoped>
-.card .media:not(:last-child) {
-  margin-bottom: 0.75rem;
+.margin-0{
+  margin: 0px !important;
 }
-.card.card--reverse-order {
-  flex-direction: row-reverse;
-}
-.card.is-horizontal {
-  display: flex;
-  flex-basis: 50ex;
-  flex-grow: 0;
-  flex-shrink: 1;
-}
-.card.is-horizontal .card-image {
-  flex: 4;
-  flex-shrink: 1;
-}
-.card.is-horizontal .card-image .image {
-  display: block;
-  position: relative;
-  overflow: hidden;
-  height: 100%;
-  width: 100%;
-}
-.card.is-horizontal .card-image .image img {
-  height: 100%;
-  object-fit: fill;
-  object-position: center;
-}
-.card.is-horizontal .card-content {
-  flex: 3;
+.padding-0{
+  padding: 0px !important;
 }
 </style>
