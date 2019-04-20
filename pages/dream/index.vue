@@ -49,13 +49,63 @@
               <div style="display:inline;padding-right:104px;">Periode 01/04/2019</div>
               <div style="display:inline;">Hingga 02/04/2019</div>
             </div>
+            <div class="padding-30">
+              <div class="columns is-multiline">
+                <div class="column is-3">
+                  <div
+                    class="card has-text-centered border-radius height-50 padding-10"
+                    :style="{ backgroundImage: 'url(' + require('@/assets/img/home1.jpg') + ')',backgroundSize:'cover ' }"
+                  >
+                    <div class="flex-end">
+                      <span class="fa fa-trash has-text-white"></span>
+                    </div>
+                    <div class="center">
+                      <p class="has-text-white">Pengin Umroh</p>
+                    </div>
+                  </div>
+                </div>
+                <div class="column is-3">
+                  <div
+                    class="card has-text-centered border-radius height-50 padding-10"
+                    :style="{ backgroundImage: 'url(' + require('@/assets/img/home1.jpg') + ')',backgroundSize:'cover ' }"
+                  >
+                    <div class="flex-end">
+                      <span class="fa fa-trash has-text-white"></span>
+                    </div>
+                    <div class="center">
+                      <p class="has-text-white">Pengin Umroh</p>
+                    </div>
+                  </div>
+                </div>
+                <div class="column is-3">
+                  <div
+                    class="card has-text-centered border-radius height-50 padding-10"
+                    :style="{ backgroundImage: 'url(' + require('@/assets/img/home1.jpg') + ')',backgroundSize:'cover ' }"
+                  >
+                    <div class="flex-end">
+                      <span class="fa fa-trash has-text-white"></span>
+                    </div>
+                    <div class="center">
+                      <p class="has-text-white">Pengin Umroh</p>
+                    </div>
+                  </div>
+                </div>
 
+                <div class="column is-3">
+                  <div class="card height-50">
+                    <div class="center-100">
+                      <span class="fa fa-plus fa-4x has-text-grey-light"></span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
             <div class="padding-30">
               <b-table :data="data" :columns="columns"></b-table>
             </div>
             <div class="card-footer">
               <div class="card-footer-item">
-                <nuxt-link class="title is-6" v-bind:to="''" >Lihat Selengkapnya</nuxt-link>
+                <nuxt-link class="title is-6" v-bind:to="''">Lihat Selengkapnya</nuxt-link>
               </div>
             </div>
           </div>
@@ -129,4 +179,34 @@ export default {
 </script>
 
 <style>
+.height-50 {
+  height: 150px;
+}
+.border-radius {
+  border-radius: 5px;
+}
+.flex-end {
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-end;
+}
+.padding-10 {
+  padding: 10px;
+}
+.center-100{
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.center {
+  height: 80%;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
 </style>
