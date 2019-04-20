@@ -25,9 +25,11 @@
         <div id="navbarBasicExample" v-bind:class="{'is-active': isOpen}" class="navbar-menu">
           <div class="navbar-start">
             <div class="navbar-item" href>
+              
               <div class="field">
                 <p class="control has-icons-left">
                   <input class="input input-header" type="text" placeholder="Search ...">
+                  
                   <span class="icon is-small is-left">
                     <i class="fas fa-search"></i>
                   </span>
@@ -37,14 +39,13 @@
             <a class="navbar-item">Daftar Investasi</a>
             <a class="navbar-item">Tabungan</a>
             <a class="navbar-item">History</a>
-            
           </div>
 
           <div class="navbar-end">
             <a class="navbar-item">
-              <div class="saldo">
-                Saldo : 2.000.000
-              </div>
+              <b-tooltip label="Tooltip bottom" position="is-bottom">
+                <label class="saldo">2.000.000</label>
+              </b-tooltip>
             </a>
             <div class="navbar-item has-dropdown is-hoverable hidden paddingleft20px">
               <div class="navbar-link not-down-arrow">
@@ -56,7 +57,7 @@
 
                 <a class="navbar-item" href="#">
                   <div class="display-flex">
-                    <img src="img/mitra.jpg">
+                    <!-- <img src="img/mitra.jpg"> -->
                     <div class="padding-left-10">
                       <p class="title is-6 no-bold">Telah Mendapatkan Tukang</p>
                       <p class="subtitle notif is-7">Selamat lakukan pembayaran secepetnya</p>
@@ -68,7 +69,7 @@
 
                 <a class="navbar-item" href="#">
                   <div class="display-flex">
-                    <img src="img/mitra.jpg">
+                    <!-- <img src="img/mitra.jpg"> -->
                     <div class="padding-left-10">
                       <p class="title is-6 no-bold">Telah Mendapatkan Tukang</p>
                       <p class="subtitle notif is-7">Selamat lakukan pembayaran secepetnya</p>
@@ -82,7 +83,7 @@
 
                 <a class="navbar-item" href="#">
                   <div class="display-flex">
-                    <img src="img/mitra.jpg">
+                    <!-- <img src="img/mitra.jpg"> -->
                     <div class="padding-left-10">
                       <p class="title is-6 no-bold">Telah Mendapatkan Tukang</p>
                       <p class="subtitle notif is-7">Selamat lakukan pembayaran secepetnya</p>
@@ -94,7 +95,7 @@
 
                 <a class="navbar-item" href="#">
                   <div class="display-flex">
-                    <img src="img/mitra.jpg">
+                    <!-- <img src="img/mitra.jpg"> -->
                     <div class="padding-left-10">
                       <p class="title is-6 no-bold">Telah Mendapatkan Tukang</p>
                       <p class="subtitle notif is-7">Selamat lakukan pembayaran secepetnya</p>
@@ -132,24 +133,25 @@
 </template>
 
 <script>
+import debounce from "lodash/debounce";
+import axios from "axios";
+
 export default {
-  data: function() {
+  data() {
     return {
-      isOpen: false
+      isOpen: false,
+      
     };
-  }
+  },
 };
 </script>
 
 <style>
-
 /* Coba */
-.height{
-height:100px;
-background-color: #363636;
+.height {
+  height: 100px;
+  background-color: #363636;
 }
-
-
 
 .navbar {
   height: 80px !important;
@@ -165,9 +167,9 @@ background-color: #363636;
   max-width: 100%;
   width: 100%;
 }
- .input-header {
-    width: 300px !important;
-  }
+.input-header {
+  width: 300px !important;
+}
 .cycle {
   border-radius: 50%;
 }
@@ -182,15 +184,15 @@ background-color: #363636;
 .not-down-arrow:not(.is-arrowless) {
   padding-right: 1rem;
 }
-.saldo{
+.saldo {
   border-radius: 3px;
   font-size: 16px !important;
   color: rgb(0, 136, 32);
   padding: 7px 15px;
-  background-color: #A1FFBF;
-  border: 1px solid #0AD237;
+  background-color: #a1ffbf;
+  border: 1px solid #0ad237;
 }
-.menu-responsive{
+.menu-responsive {
   display: none;
 }
 
@@ -199,7 +201,6 @@ background-color: #363636;
   .navbar {
     height: 50px !important;
   }
-  
 }
 @media only screen and (max-width: 1200px) {
   .input-header {
@@ -210,11 +211,10 @@ background-color: #363636;
   .input-header {
     width: 100% !important;
   }
-  .menu-responsive{
+  .menu-responsive {
     display: inline;
-    
   }
-  .menu-responsive-hidden{
+  .menu-responsive-hidden {
     display: none;
   }
 }
