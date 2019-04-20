@@ -45,6 +45,11 @@ body {
 .relative{
   position: relative;
 }
+.center-column{
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
 
 /* Font */
 .no-bold {

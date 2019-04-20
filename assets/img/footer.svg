@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="1049px" height="739px" viewBox="0 0 1049 739" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 53 (72520) - https://sketchapp.com -->
+    <title>5 level_price</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <filter x="-186.5%" y="-191.7%" width="473.0%" height="483.3%" filterUnits="objectBoundingBox" id="filter-1">
+            <feGaussianBlur stdDeviation="23" in="SourceGraphic"></feGaussianBlur>
+        </filter>
+        <filter x="-181.6%" y="-181.6%" width="463.2%" height="463.2%" filterUnits="objectBoundingBox" id="filter-2">
+            <feGaussianBlur stdDeviation="23" in="SourceGraphic"></feGaussianBlur>
+        </filter>
+        <filter x="-176.9%" y="-176.9%" width="453.8%" height="453.8%" filterUnits="objectBoundingBox" id="filter-3">
+            <feGaussianBlur stdDeviation="23" in="SourceGraphic"></feGaussianBlur>
+        </filter>
+        <filter x="-12.1%" y="-27.5%" width="124.2%" height="155.0%" filterUnits="objectBoundingBox" id="filter-4">
+            <feGaussianBlur stdDeviation="10" in="SourceGraphic"></feGaussianBlur>
+        </filter>
+        <filter x="-12.1%" y="-27.5%" width="124.2%" height="155.0%" filterUnits="objectBoundingBox" id="filter-5">
+            <feGaussianBlur stdDeviation="10" in="SourceGraphic"></feGaussianBlur>
+        </filter>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="workshop_layout" transform="translate(-196.000000, -4274.000000)">
+            <g id="5-level_price" transform="translate(205.000000, 4275.000000)">
+                <g id="assets/team_circle" transform="translate(148.000000, 0.000000)">
+                    <g id="Group-7">
+                        <circle id="Oval-Copy" stroke="#FFFFFF" opacity="0.02" fill-rule="nonzero" cx="368.5" cy="368.5" r="368.5"></circle>
+                        <circle id="Oval-Copy" stroke="#FFFFFF" opacity="0.0365234375" fill-rule="nonzero" cx="368.5" cy="368.5" r="267.5"></circle>
+                        <circle id="Oval-Copy" stroke="#FFFFFF" opacity="0.06875" fill-rule="nonzero" cx="368.5" cy="368.5" r="202.5"></circle>
+                        <circle id="Oval-Copy" stroke="#FFFFFF" opacity="0.0889322917" fill-rule="nonzero" cx="368.5" cy="368.5" r="154.5"></circle>
+                        <circle id="Oval" stroke="#FFFFFF" opacity="0.092703683" fill-rule="nonzero" cx="368.5" cy="368.5" r="104.5"></circle>
+                        <circle id="Oval" fill="#FFFFFF" fill-rule="nonzero" cx="367.5" cy="367.5" r="58.5"></circle>
+                        <g id="Group-21" transform="translate(242.000000, 243.000000)">
+                            <path d="M253,120 C251.472898,89.9036693 239.030852,60.2436686 215.672092,37.2574292 C213.823061,35.43784 211.931577,33.6849768 210,32" id="Stroke-1" stroke="#5ACED6" stroke-width="5" stroke-linecap="round"></path>
+                            <path d="M201,230 C206.336011,226.076636 211.437633,221.68067 216.249336,216.811511 C224.066016,208.901494 230.649961,200.216031 236,191" id="Stroke-3" stroke="#7CE3EA" stroke-width="5" stroke-linecap="round"></path>
+                            <path d="M0,136 C2.17986599,165.145697 14.4847669,193.68395 36.9147029,215.970705 C63.0607857,241.949303 97.7540064,254.25894 132,252.89845" id="Stroke-5" stroke="#7CE3EA" stroke-width="5" stroke-linecap="round"></path>
+                            <path d="M65,33 C45.6586156,45.7264919 30.4969671,64.2147958 22,86" id="Stroke-7" stroke="#FBB13C" stroke-width="5" stroke-linecap="round"></path>
+                            <path d="M201,44 C181.116735,25.9774011 154.74837,15 125.821022,15 C123.530542,15 121.256477,15.0687079 119,15.2043618" id="Stroke-9" stroke="#5ACED6" stroke-width="1.658" stroke-linecap="round"></path>
+                            <path d="M236.459883,144 C237.474234,138.237231 238,132.328279 238,126.308957 C238,116.529979 236.610568,107.043367 234,98" id="Stroke-11" stroke="#FBB13C" stroke-width="1.658" stroke-linecap="round"></path>
+                            <path d="M53,210.919272 C72.5646216,227.796685 98.0370214,238 125.889479,238 C158.355963,238 187.587487,224.136432 208,202" id="Stroke-13" stroke="#FBB13C" stroke-width="1.658" stroke-linecap="round"></path>
+                            <path d="M15,127 C15,147.034892 20.460305,165.819941 30,182" id="Stroke-15" stroke="#7CE3EA" stroke-width="1.658" stroke-linecap="round"></path>
+                            <path d="M151,2.59034274 C125.640778,-2.6953192 99.0024099,0.108296887 75,11" id="Stroke-17" stroke="#FBB13C" stroke-width="5" stroke-linecap="round"></path>
+                            <path d="M37,37 C20.5880658,53.381486 9.58806576,73.1190846 4,94" id="Stroke-19" stroke="#5ACED6" stroke-width="1.882"></path>
+                        </g>
+                        <g id="Group-8" transform="translate(342.000000, 224.000000)">
+                            <ellipse id="Oval" fill="#000000" fill-rule="nonzero" opacity="0.505812872" filter="url(#filter-1)" cx="26.5" cy="47" rx="18.5" ry="18"></ellipse>
+                            <circle id="Oval" fill="#16BAC5" fill-rule="nonzero" cx="26" cy="26" r="26"></circle>
+                            <g id="Group-6" transform="translate(16.000000, 15.000000)" fill="#118E96">
+                                <path d="M14.0740741,5.18518519 C14.0740741,2.32151593 12.2500206,0 10,0 C7.74997942,0 5.92592593,2.32151593 5.92592593,5.18518519 C5.92592593,8.04885444 7.74997942,10.3703704 10,10.3703704 C12.2500206,10.3703704 14.0740741,8.04885444 14.0740741,5.18518519" id="Fill-1"></path>
+                                <path d="M16.4212542,11.5408014 C15.6674689,10.9056986 14.526339,11.0815628 13.9766215,11.9002253 C13.1044181,13.1989496 11.6238531,14.0534866 9.94351412,14.0534866 C8.28340113,14.0534866 6.81775141,13.2196595 5.94136723,11.9473035 C5.37255367,11.1216245 4.21820339,10.9826533 3.46181921,11.6401636 C1.34441808,13.4801739 1.12994352e-05,16.1918097 1.12994352e-05,19.2026636 C1.12994352e-05,19.2215628 0.000576271187,19.2403488 0.000689265537,19.2592479 L19.9993333,19.2592479 C19.9993333,19.2403488 20.0000113,19.2215628 20.0000113,19.2026636 C20.0000113,16.1368097 18.605774,13.3817171 16.4212542,11.5408014" id="Fill-3"></path>
+                            </g>
+                        </g>
+                        <g id="Group-8-Copy-2" transform="translate(516.000000, 244.000000)">
+                            <circle id="Oval" fill="#000000" fill-rule="nonzero" opacity="0.613304501" filter="url(#filter-2)" cx="27" cy="42" r="19"></circle>
+                            <path d="M27,54 C41.9116882,54 54,41.9116882 54,27 C54,12.0883118 41.9116882,0 27,0 C12.0883118,0 0,12.0883118 0,27 C0,41.9116882 12.0883118,54 27,54 Z" id="Oval" stroke="#FF715B" fill-opacity="0.184442935" fill="#FF715B" fill-rule="nonzero" stroke-dasharray="6"></path>
+                            <g id="Group-6" transform="translate(16.000000, 16.000000)" fill="#FF715B">
+                                <path d="M14.0740741,5.18518519 C14.0740741,2.32151593 12.2500206,0 10,0 C7.74997942,0 5.92592593,2.32151593 5.92592593,5.18518519 C5.92592593,8.04885444 7.74997942,10.3703704 10,10.3703704 C12.2500206,10.3703704 14.0740741,8.04885444 14.0740741,5.18518519" id="Fill-1"></path>
+                                <path d="M16.4212542,11.5408014 C15.6674689,10.9056986 14.526339,11.0815628 13.9766215,11.9002253 C13.1044181,13.1989496 11.6238531,14.0534866 9.94351412,14.0534866 C8.28340113,14.0534866 6.81775141,13.2196595 5.94136723,11.9473035 C5.37255367,11.1216245 4.21820339,10.9826533 3.46181921,11.6401636 C1.34441808,13.4801739 1.12994353e-05,16.1918097 1.12994353e-05,19.2026636 C1.12994353e-05,19.2215628 0.000576271187,19.2403488 0.000689265537,19.2592479 L19.9993333,19.2592479 C19.9993333,19.2403488 20.0000113,19.2215628 20.0000113,19.2026636 C20.0000113,16.1368097 18.605774,13.3817171 16.4212542,11.5408014" id="Fill-3"></path>
+                            </g>
+                        </g>
+                        <g id="Group-8-Copy" transform="translate(227.000000, 382.000000)" fill-rule="nonzero">
+                            <circle id="Oval" fill="#000000" filter="url(#filter-3)" cx="28.5" cy="35.5" r="19.5"></circle>
+                            <circle id="Oval" fill="#FBB13C" cx="28" cy="28" r="28"></circle>
+                        </g>
+                        <g id="Group-6" transform="translate(244.000000, 400.000000)" fill="#CA8518">
+                            <path d="M14.0740741,5.18518519 C14.0740741,2.32151593 12.2500206,0 10,0 C7.74997942,0 5.92592593,2.32151593 5.92592593,5.18518519 C5.92592593,8.04885444 7.74997942,10.3703704 10,10.3703704 C12.2500206,10.3703704 14.0740741,8.04885444 14.0740741,5.18518519" id="Fill-1"></path>
+                            <path d="M16.4212542,11.5408014 C15.6674689,10.9056986 14.526339,11.0815628 13.9766215,11.9002253 C13.1044181,13.1989496 11.6238531,14.0534866 9.94351412,14.0534866 C8.28340113,14.0534866 6.81775141,13.2196595 5.94136723,11.9473035 C5.37255367,11.1216245 4.21820339,10.9826533 3.46181921,11.6401636 C1.34441808,13.4801739 1.12994353e-05,16.1918097 1.12994353e-05,19.2026636 C1.12994353e-05,19.2215628 0.000576271187,19.2403488 0.000689265537,19.2592479 L19.9993333,19.2592479 C19.9993333,19.2403488 20.0000113,19.2215628 20.0000113,19.2026636 C20.0000113,16.1368097 18.605774,13.3817171 16.4212542,11.5408014" id="Fill-3"></path>
+                        </g>
+                        <text id="TEAM" font-family="Montserrat-Bold, Montserrat" font-size="12" font-weight="bold" line-spacing="53" letter-spacing="1.85000002" fill="#31394F">
+                            <tspan x="345.74" y="356">TEAM</tspan>
+                        </text>
+                    </g>
+                </g>
+                <g id="legend">
+                    <path d="M710,290 L872.355469,414.105469" id="Line-3" stroke="#FF715B" stroke-linecap="square" stroke-dasharray="5" fill-rule="nonzero"></path>
+                    <g id="new_participant_box" transform="translate(749.000000, 414.000000)">
+                        <path d="M5,0 L275,0 C277.761424,-5.07265313e-16 280,2.23857625 280,5 L280,180 C280,182.761424 277.761424,185 275,185 L5,185 C2.23857625,185 -1.36390388e-12,182.761424 -1.36424205e-12,180 L-1.36424205e-12,5 C-1.36458023e-12,2.23857625 2.23857625,5.07265313e-16 5,0 Z" id="Rectangle-Copy-15" fill="#1F2536" fill-rule="nonzero" transform="translate(140.000000, 92.500000) rotate(-180.000000) translate(-140.000000, -92.500000) "></path>
+                        <path d="M23,93 L261,93 C263.761424,93 266,95.2385763 266,98 L266,197 C266,199.761424 263.761424,202 261,202 L23,202 C20.2385763,202 18,199.761424 18,197 L18,98 C18,95.2385763 20.2385763,93 23,93 Z" id="Rectangle" fill="#1F2536" fill-rule="nonzero" opacity="0.513044085" filter="url(#filter-4)"></path>
+                        <text id="+500zł" font-family="Montserrat-Bold, Montserrat" font-size="34" font-weight="bold" line-spacing="30" letter-spacing="0.560000002" fill="#FFFFFF">
+                            <tspan x="40" y="160">+500zł</tspan>
+                        </text>
+                        <text id="Transparant-dan-terp" font-family="Montserrat-Bold, Montserrat" font-size="12" font-weight="bold" line-spacing="18" letter-spacing="1.85000002" fill="#C6D2E0">
+                            <tspan x="39" y="78">Transparant dan </tspan>
+                            <tspan x="39" y="101">terpercaya</tspan>
+                        </text>
+                        <circle id="Oval-Copy-3" stroke="#FF715B" fill-opacity="0.175696332" fill="#FF715B" fill-rule="nonzero" cx="44" cy="35" r="5"></circle>
+                    </g>
+                    <g id="price_box" transform="translate(0.000000, 132.000000)">
+                        <path d="M21,95 L259,95 C261.761424,95 264,97.2385763 264,100 L264,199 C264,201.761424 261.761424,204 259,204 L21,204 C18.2385763,204 16,201.761424 16,199 L16,100 C16,97.2385763 18.2385763,95 21,95 Z" id="Rectangle" fill="#1F2536" fill-rule="nonzero" opacity="0.513044085" filter="url(#filter-5)"></path>
+                        <path d="M5,0 L275,0 C277.761424,-5.07265313e-16 280,2.23857625 280,5 L280,180 C280,182.761424 277.761424,185 275,185 L5,185 C2.23857625,185 3.38176876e-16,182.761424 0,180 L0,5 C-3.38176876e-16,2.23857625 2.23857625,5.07265313e-16 5,0 Z" id="Rectangle" fill="#1F2536" fill-rule="nonzero"></path>
+                        <text id="2900zł" font-family="Montserrat-Bold, Montserrat" font-size="34" font-weight="bold" line-spacing="30" letter-spacing="0.560000002" fill="#FFFFFF">
+                            <tspan x="40" y="161">2900zł</tspan>
+                        </text>
+                        <text id="Standarisasi-Pembagi" font-family="Montserrat-Bold, Montserrat" font-size="12" font-weight="bold" line-spacing="18" letter-spacing="1.85000002" fill="#C6D2E0">
+                            <tspan x="39" y="78">Standarisasi Pembagian</tspan>
+                            <tspan x="39" y="101">hasil</tspan>
+                        </text>
+                        <circle id="Oval" fill="#16BAC5" fill-rule="nonzero" cx="44" cy="36" r="5"></circle>
+                        <circle id="Oval-Copy-2" fill="#FBB13C" fill-rule="nonzero" cx="64" cy="36" r="5"></circle>
+                    </g>
+                    <text id="Akan-segera-hadir-Bl" font-family="Montserrat-Bold, Montserrat" font-size="34" font-weight="bold" line-spacing="47" letter-spacing="0.1584854" fill="#FFFFFF">
+                        <tspan x="246.272204" y="33">Akan segera hadir Blockchain</tspan>
+                        <tspan x="383.613845" y="85">Smart Kontrak</tspan>
+                    </text>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
