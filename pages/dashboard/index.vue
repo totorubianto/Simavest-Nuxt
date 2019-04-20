@@ -22,7 +22,7 @@ import Card from "@/components/dashboard/card";
 export default {
   layout: "dashboard",
   components: {
-    Card
+    Card,
   }
 };
 </script>

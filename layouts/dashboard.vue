@@ -31,7 +31,7 @@
             <div class="card-content">
               <h5 class="title is-6">Search</h5>
               <b-field>
-                <b-input v-model="name" placeholder="Search"></b-input>
+                <b-input  placeholder="Search"></b-input>
               </b-field>
               <h5 class="title is-6">Kategori</h5>
               <table class="table is-bordered is-responsive is-hoverable">
@@ -78,9 +78,9 @@
 </template>
 
 <script>
-import Navbar from "@/components/core/Navbar";
-import Hero from "@/components/dashboard/hero";
-import Card from "@/components/dashboard/card";
+import Navbar from "~/components/core/Navbar";
+import Hero from "~/components/dashboard/hero";
+import Card from "~/components/dashboard/card";
 export default {
   components: {
     Navbar,

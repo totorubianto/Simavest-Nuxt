@@ -134,8 +134,6 @@
 </template>
 
 <script>
-import debounce from "lodash/debounce";
-import axios from "axios";
 
 export default {
   data() {
