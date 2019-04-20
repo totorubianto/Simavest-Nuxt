@@ -7,6 +7,12 @@ body {
 .display-flex {
   display: flex;
 }
+.absolute{
+  position: absolute;
+}
+.relative{
+  position: relative;
+}
 
 /* Font */
 .no-bold {
@@ -44,6 +50,9 @@ body {
 }
 
 /* Padding */
+.padding-top-100{
+  padding-top: 200px;
+}
 .padding-top-30{
   padding-top: 30px;
 }
@@ -74,6 +83,18 @@ body {
   padding-top: 24px;
 }
 
+
+
+/* Top */
+.top-100{
+  top: 200px;
+}
+
+
+/* Width */
+.width-100{
+  width: 100% !important;
+}
 
 
 /* Media Screen */

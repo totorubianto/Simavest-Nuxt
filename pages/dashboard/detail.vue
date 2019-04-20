@@ -1,9 +1,10 @@
 <template>
   <div>
+      <Hero/>
     <section>
       <div class="container">
-        <div class="columns is-8 padding-top-30">
-          <div class="column">
+        <div class="columns relative top-100">
+          <div class="column is-8 padding-top-100">
             <div class="card">
               <div class="card-content">
                 <b-tabs v-model="activeTab" position="is-centered" class="block" size="is-medium">
@@ -111,10 +112,11 @@
 
 <script>
 import Card from "@/components/dashboard/card";
+import Hero from "@/components/dashboard/herodetail";
+
 export default {
-  layout: "dashboard",
   components: {
-    Card
+    Card,Hero
   }
 };
 </script>
