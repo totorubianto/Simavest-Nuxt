@@ -3,9 +3,10 @@
     <nav class="navbar" role="navigation" aria-label="main navigation">
       <div class="container">
         <div class="navbar-brand">
-          <a class="navbar-item">
-            <img src="~/assets/img/logo1.png">
-          </a>
+          <nuxt-link class="navbar-item" to="/">
+          <img src="~/assets/img/logo1.png">
+          </nuxt-link>
+         
 
           <a
             role="button"
