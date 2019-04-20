@@ -2,7 +2,7 @@
   <div class="card is-half">
     <div class="card-image">
       <figure class="image is-128x128 has-image-centered">
-        <img src="https://bulma.io/images/placeholders/256x256.png">
+        <img src="~/assets/img/icons/kebutuhan.svg">
       </figure>
       <div class="card-content has-text-centered">
         <p class="title is-5 has-text-pink">Saldo Utama</p>

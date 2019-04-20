@@ -6,6 +6,12 @@
         <div class="column is-4">
             <CardMenu />
         </div>
+        <div class="column is-4">
+            <CardMenu />
+        </div>
+        <div class="column is-4">
+            <CardMenu />
+        </div>
       </div>
     </div>
   </div>
