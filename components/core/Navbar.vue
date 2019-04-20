@@ -44,7 +44,7 @@
 
           <div class="navbar-end">
             <a class="navbar-item">
-              <b-tooltip label="Tooltip bottom" position="is-bottom">
+              <b-tooltip label="Saldo Utama" position="is-bottom">
                 <label class="saldo">2.000.000</label>
               </b-tooltip>
             </a>
