@@ -1,7 +1,7 @@
 <template>
   <div>
     <Hero/>
-    <div class="container relative top-300">
+    <div class="container relative top-300 padding-bottom-300">
       <div class="columns">
         <div class="column is-4">
           <div class="card padding-30 has-text-centered">
@@ -116,10 +116,10 @@
         </div>
       </div>
     </div>
-    <b-modal :active.sync="isCardModalActive" scroll="clip" has-modal-card="false">
+    <b-modal :active.sync="isCardModalActive" :width="640" scroll="keep">
       <div class="container">
         <div class="columns is-half is-centered">
-          <div class="column is-7">
+          <div class="column is-12">
             <div class="card" style="width:auto;">
               <div class="card-content">
                 <h5 class="title is-6 has-text-mystyle">Tambah Impian</h5>

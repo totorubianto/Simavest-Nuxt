@@ -4,9 +4,8 @@
       <div class="container">
         <div class="navbar-brand">
           <nuxt-link class="navbar-item" to="/">
-          <img src="~/assets/img/logo1.png">
+            <img src="~/assets/img/logo1.png">
           </nuxt-link>
-         
 
           <a
             role="button"
@@ -26,20 +25,20 @@
         <div id="navbarBasicExample" v-bind:class="{'is-active': isOpen}" class="navbar-menu">
           <div class="navbar-start">
             <div class="navbar-item" href>
-              
               <div class="field">
                 <p class="control has-icons-left">
                   <input class="input input-header" type="text" placeholder="Search ...">
-                  
+
                   <span class="icon is-small is-left">
                     <i class="fas fa-search"></i>
                   </span>
                 </p>
               </div>
             </div>
-            <a class="navbar-item">Daftar Investasi</a>
-            <a class="navbar-item">Tabungan</a>
-            <a class="navbar-item">History</a>
+            <!-- <a class="navbar-item">Daftar Investasi</a> -->
+            <nuxt-link class="navbar-item" id="daftarInvest" to="dashboard">Daftar Investasi</nuxt-link>
+            <!-- <a class="navbar-item">Tabungan</a> -->
+            <nuxt-link class="navbar-item" id="tabungan" to="tabungan">Tabungan</nuxt-link>
           </div>
 
           <div class="navbar-end">
@@ -60,8 +59,8 @@
                   <div class="display-flex">
                     <!-- <img src="img/mitra.jpg"> -->
                     <div class="padding-left-10">
-                      <p class="title is-6 no-bold">Telah Mendapatkan Tukang</p>
-                      <p class="subtitle notif is-7">Selamat lakukan pembayaran secepetnya</p>
+                      <p class="title is-6 no-bold">Welcome New User</p>
+                      <p class="subtitle notif is-7">Halo halloo selamat datang di simavaset</p>
                     </div>
                   </div>
                 </a>
@@ -72,38 +71,12 @@
                   <div class="display-flex">
                     <!-- <img src="img/mitra.jpg"> -->
                     <div class="padding-left-10">
-                      <p class="title is-6 no-bold">Telah Mendapatkan Tukang</p>
-                      <p class="subtitle notif is-7">Selamat lakukan pembayaran secepetnya</p>
+                      <p class="title is-6 no-bold">Baca Peratuan</p>
+                      <p class="subtitle notif is-7">panduan simple investasi</p>
                     </div>
                   </div>
                 </a>
 
-                <hr class="navbar-divider">
-
-                <a class="navbar-item is-bold" href="#">Kemarin</a>
-
-                <a class="navbar-item" href="#">
-                  <div class="display-flex">
-                    <!-- <img src="img/mitra.jpg"> -->
-                    <div class="padding-left-10">
-                      <p class="title is-6 no-bold">Telah Mendapatkan Tukang</p>
-                      <p class="subtitle notif is-7">Selamat lakukan pembayaran secepetnya</p>
-                    </div>
-                  </div>
-                </a>
-
-                <hr class="navbar-divider">
-
-                <a class="navbar-item" href="#">
-                  <div class="display-flex">
-                    <!-- <img src="img/mitra.jpg"> -->
-                    <div class="padding-left-10">
-                      <p class="title is-6 no-bold">Telah Mendapatkan Tukang</p>
-                      <p class="subtitle notif is-7">Selamat lakukan pembayaran secepetnya</p>
-                    </div>
-                  </div>
-                </a>
-                <hr class="navbar-divider">
 
                 <a class="navbar-item" href="#">
                   <p class="has-text-centered">Lihat Selengkapnya</p>
@@ -117,31 +90,32 @@
                 <span class="menu-responsive"></span>
               </div>
               <div class="navbar-dropdown is-right is-boxed">
-                <a class="navbar-item" href="profile.html">Profile</a>
-                <a class="navbar-item" href="#">Message</a>
-                <a class="navbar-item" href="#">Bantuan</a>
+                
+                <nuxt-link class="navbar-item" to="#">Profile</nuxt-link>
+                
+                <nuxt-link class="navbar-item" to="#">Message</nuxt-link>
+                
+                <nuxt-link class="navbar-item" to="#">Bantuan</nuxt-link>
                 <hr class="navbar-divider">
-                <a class="navbar-item" href="#">Peraturan</a>
-                <a class="navbar-item is-active" href="#">Logout</a>
+                
+                <nuxt-link class="navbar-item" to="#">Pengaturan</nuxt-link>
+                <nuxt-link class="navbar-item is-active" to="login">Logout</nuxt-link>
               </div>
             </div>
           </div>
         </div>
       </div>
     </nav>
-
   </div>
 </template>
 
 <script>
-
 export default {
   data() {
     return {
-      isOpen: false,
-      
+      isOpen: false
     };
-  },
+  }
 };
 </script>
 

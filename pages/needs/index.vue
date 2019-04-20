@@ -1,7 +1,7 @@
 <template>
   <div>
     <Hero/>
-    <div class="container relative top-300">
+    <div class="container relative top-300 padding-bottom-300">
       <div class="columns">
         <div class="column is-4">
           <div class="card padding-30 has-text-centered">
@@ -49,13 +49,48 @@
               <div style="display:inline;padding-right:104px;">Periode 01/04/2019</div>
               <div style="display:inline;">Hingga 02/04/2019</div>
             </div>
+            <div class="padding-30">
+              <div class="columns is-multiline">
+                <div class="column is-3">
+                  <div class="card has-text-centered border-radius height-50 padding-10">
+                    <div class="flex-end">
+                      <span class="fa fa-trash has-text-mystyle"></span>
+                    </div>
+                    <div class="center">
+                      <p class="has-text-mystyle">Pembayaran Spp</p>
+                      <p class="has-text-mystyle">10 Ribu/Hari</p>
+                    </div>
+                  </div>
+                </div>
+                
+                <div class="column is-3">
+                  <div class="card has-text-centered border-radius height-50 padding-10">
+                    <div class="flex-end">
+                      <span class="fa fa-trash has-text-mystyle"></span>
+                    </div>
+                    <div class="center">
+                      <p class="has-text-mystyle">Uang Jajan</p>
+                      <p class="has-text-mystyle">30 Ribu/Hari</p>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="column is-3" @click="isCardModalActive = true">
+                  <div class="card height-50">
+                    <div class="center-100">
+                      <span class="fa fa-plus fa-4x has-text-grey-light"></span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
 
             <div class="padding-30">
               <b-table :data="data" :columns="columns"></b-table>
             </div>
             <div class="card-footer">
               <div class="card-footer-item">
-                <nuxt-link class="title is-6" v-bind:to="''" >Lihat Selengkapnya</nuxt-link>
+                <nuxt-link class="title is-6" v-bind:to="''">Lihat Selengkapnya</nuxt-link>
               </div>
             </div>
           </div>
@@ -76,32 +111,32 @@ export default {
       data: [
         {
           tanggal: "2016-10-15",
-          transaksi: "Potongan kebutuhan SPP/ Bulan Potongan Kebutuhan Listrik",
+          transaksi: "Potongan kebutuhan SPP",
           debit: "-",
-          credit: "100000"
+          credit: "Rp. 10.000"
         },
         {
           tanggal: "2016-10-15",
-          transaksi: "Potongan kebutuhan SPP/ Bulan Potongan Kebutuhan Listrik",
+          transaksi: "Pulsa Rp. 100.000",
           debit: "-",
-          credit: "100000"
+          credit: "Rp. 100.000"
         },
         {
           tanggal: "2016-10-15",
-          transaksi: "Potongan kebutuhan SPP/ Bulan Potongan Kebutuhan Listrik",
-          debit: "100000",
+          transaksi: "Belanja Bulanan",
+          debit: "Rp. 200.000",
           credit: "-"
         },
         {
           tanggal: "2016-10-15",
-          transaksi: "Potongan kebutuhan SPP/ Bulan Potongan Kebutuhan Listrik",
+          transaksi: "Buku sekolah",
           debit: "-",
-          credit: "100000"
+          credit: "Rp. 50.000"
         },
         {
           tanggal: "2016-10-15",
-          transaksi: "Potongan kebutuhan SPP/ Bulan Potongan Kebutuhan Listrik",
-          debit: "100000",
+          transaksi: "Bayar Wifi",
+          debit: "Rp. 100.000",
           credit: "-"
         }
       ],
@@ -129,4 +164,34 @@ export default {
 </script>
 
 <style>
+.height-50 {
+  height: 150px;
+}
+.border-radius {
+  border-radius: 5px;
+}
+.flex-end {
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-end;
+}
+.padding-10 {
+  padding: 10px;
+}
+.center-100 {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.center {
+  height: 80%;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
 </style>

@@ -10,6 +10,7 @@ import BLogo from "@/components/Logo";
 
 export default {
   transition: "fade",
-  name: "HomePage"
+  name: "HomePage",
+  layout: "home"
 };
 </script>
