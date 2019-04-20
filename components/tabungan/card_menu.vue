@@ -1,7 +1,7 @@
 <template>
   <div class="card is-half">
     <div class="card-image">
-      <figure class="image is-128x128 has-image-centered">
+      <figure class="image is-128x128 has-image-centered padding-top-22">
         <img src="~/assets/img/icons/kebutuhan.svg">
       </figure>
       <div class="card-content has-text-centered">

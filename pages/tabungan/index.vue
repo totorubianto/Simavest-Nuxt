@@ -1,16 +1,10 @@
 <template>
   <div>
     <Hero/>
-    <div class="container">
+    <div class="container relative top-300">
       <div class="columns">
         <div class="column is-4">
-            <CardMenu />
-        </div>
-        <div class="column is-4">
-            <CardMenu />
-        </div>
-        <div class="column is-4">
-            <CardMenu />
+          <CardMenu/>
         </div>
       </div>
     </div>
@@ -18,13 +12,12 @@
 </template>
 
 <script>
-import Hero from "@/components/dashboard/hero";
+import Hero from "@/components/tabungan/tabunganImpian/hero";
 import CardMenu from "@/components/tabungan/card_menu";
 export default {
-  layout: "default",
   components: {
     Hero,
-    CardMenu,
+    CardMenu
   }
 };
 </script>
