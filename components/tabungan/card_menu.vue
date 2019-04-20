@@ -2,7 +2,7 @@
   <div class="card is-half">
     <div class="card-image">
       <figure class="image is-128x128 has-image-centered padding-top-22">
-        <img src="~/assets/img/icons/kebutuhan.svg">
+        <img :src="'{{ imageUrl }}'">
       </figure>
       <div class="card-content has-text-centered">
         <p class="title is-5 has-text-pink">Saldo Utama</p>
@@ -16,7 +16,12 @@
 </template>
 
 <script>
-export default {};
+// var imageUrl = require('~/assets/img/icons/kebutuhan.svg')
+export default {
+  props: [
+    'imageUrl'
+  ]
+}
 </script>
 
 <style>

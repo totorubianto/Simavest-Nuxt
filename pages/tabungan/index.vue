@@ -6,6 +6,12 @@
         <div class="column is-4">
           <CardMenu/>
         </div>
+        <div class="column is-4">
+          <CardMenu/>
+        </div>
+        <div class="column is-4">
+          <CardMenu/>
+        </div>
       </div>
     </div>
   </div>
@@ -15,6 +21,9 @@
 import Hero from "@/components/tabungan/tabunganImpian/hero";
 import CardMenu from "@/components/tabungan/card_menu";
 export default {
+  data() {
+    return { imageUrl: require('~/assets/img/icons/kebutuhan.svg')}
+  },
   components: {
     Hero,
     CardMenu
