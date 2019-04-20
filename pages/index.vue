@@ -238,6 +238,4 @@ ul.a {
 .navbar-item:active {
   background-color: transparent !important;
 }
-.img-section {
-}
 </style>
