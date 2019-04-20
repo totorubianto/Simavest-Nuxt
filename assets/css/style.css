@@ -39,7 +39,15 @@ body {
   margin-left: 30px;
 }
 
+.margin-top-16{
+  margin-top:16px;
+}
+
 /* Padding */
+.padding-top-30{
+  padding-top: 30px;
+}
+
 .padding-right-11 {
   padding-right: 11px;
 }
@@ -61,6 +69,12 @@ body {
 .padding-top-22{
     padding-top: 22px;
 }
+
+.padding-top-24{
+  padding-top: 24px;
+}
+
+
 
 /* Media Screen */
 @media only screen and (max-width: 1100px) {
