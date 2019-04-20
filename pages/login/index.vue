@@ -1,30 +1,7 @@
 <template>
   <div>
-    <Card/>
     <div class="height-100 sign-container">
       <div class="container" id="container">
-        <div class="form-container sign-up-container">
-          <form action="#">
-            <h1>Create Account</h1>
-            <div class="social-container">
-              <a href="#" class="social">
-                <i class="fab fa-facebook-f"></i>
-              </a>
-              <a href="#" class="social">
-                <i class="fab fa-google-plus-g"></i>
-              </a>
-              <a href="#" class="social">
-                <i class="fab fa-linkedin-in"></i>
-              </a>
-            </div>
-            <span>or use your email for registration</span>
-            <input type="text" placeholder="Name">
-            <input type="email" placeholder="Email">
-            <input type="password" placeholder="Password">
-
-            <button>Sign Up</button>
-          </form>
-        </div>
         <div class="form-container sign-in-container">
           <form action="#">
             <h1>Sign in</h1>
@@ -40,8 +17,13 @@
               </a>
             </div>
             <span>or use your account</span>
-            <input type="email" placeholder="Email">
-            <input type="password" placeholder="Password">
+            <b-field class="width-100">
+              <b-input class="width-100" placeholder="username" ></b-input>
+            </b-field>
+            <b-field class="width-100">
+              <b-input class="width-100" placeholder="password"></b-input>
+            </b-field>
+
             <a href="#">Forgot your password?</a>
             <button>Sign In</button>
           </form>
@@ -66,13 +48,9 @@
 </template>
 
 <script>
-import Card from "~/components/dashboard/card";
 export default {
   transition: "fade",
-  layout: "home",
-  components: {
-    Card
-  }
+  layout: "home"
 };
 </script>
 
@@ -129,6 +107,8 @@ button {
   color: #ffffff;
   font-size: 12px;
   font-weight: bold;
+  height: 48px;
+  border-radius: 48px;
   padding: 12px 45px;
   letter-spacing: 1px;
   text-transform: uppercase;
@@ -158,6 +138,7 @@ button:focus {
 .ghost {
   background-color: transparent;
   border-color: #ffffff;
+  border-radius: 100px;
 }
 
 form {
@@ -169,14 +150,6 @@ form {
   padding: 0 50px;
   height: 100%;
   text-align: center;
-}
-
-input {
-  background-color: #eee;
-  border: none;
-  padding: 12px 15px;
-  margin: 8px 0;
-  width: 100%;
 }
 
 .container {

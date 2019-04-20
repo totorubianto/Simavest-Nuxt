@@ -23,7 +23,7 @@ module.exports = {
   */
  transition: 'fade',
  
-  loading: { color: '#fff' },
+  loading: { color: '#EF3088' },
 
   /*
   ** Global CSS
