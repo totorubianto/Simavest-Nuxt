@@ -28,6 +28,38 @@
                 <b-input v-model="name" placeholder="Search"></b-input>
               </b-field>
               <h5 class="title is-6">Kategori</h5>
+              <table class="table is-bordered is-responsive is-hoverable">
+                <tbody>
+                  <tr>
+                    <td>
+                      <img src="~assets/img/icons/wallet.svg" alt="wallet">
+                    </td>
+                    <td>
+                      <img src="~assets/img/icons/bag.svg" alt="bag">
+                    </td>
+                    <td>
+                      <img src="~assets/img/icons/cart-1.svg" alt="cart1">
+                    </td>
+                    <td>
+                      <img src="~assets/img/icons/cart-2.svg" alt="cart2">
+                    </td>
+                  </tr>
+                  <tr>
+                    <td>
+                      <img src="~assets/img/icons/credit-card.svg" alt="cc">
+                    </td>
+                    <td>
+                      <img src="~assets/img/icons/delivery-van.svg" alt="d">
+                    </td>
+                    <td>
+                      <img src="~assets/img/icons/gift.svg" alt="gift">
+                    </td>
+                    <td>
+                      <img src="~assets/img/icons/invoice.svg" alt="invoice">
+                    </td>
+                  </tr>
+                </tbody>
+              </table>
             </div>
           </div>
         </div>
@@ -37,41 +69,46 @@
               <div class="card">
                 <div class="card-image">
                   <figure class="image is-4by3">
-                    <img
-                      src="https://bulma.io/images/placeholders/1280x960.png"
-                      alt="Placeholder image">
+                    <img src="~assets/img/home1.jpg" alt="Placeholder image">
                   </figure>
                 </div>
                 <div class="card-content">
-                  <h5 class="title is-6">Perumnas Teluk</h5>
-                  <p class="is-size-6 "><i class="fas fa-list padding-right-11"></i>Jl Angsana III</p>
-                  <p class="is-size-6 "><i class="fas fa-list padding-right-11"></i>Rumah</p>
-                  <p class="is-size-6 "><i class="fas fa-list padding-right-11"></i>Keuntungan</p>
+                  <h5 class="title is-6">Green Taman Sutra</h5>
+                  <p class="is-size-6 is-vertical-center">
+                    <span class="padding-right-11">
+                      <img src="~assets/img/icons/location.svg" alt="loct">
+                    </span>
+                    Jakarta Barat, Jl Angsana III
+                  </p>
+                  <p class="is-size-6">
+                    <span class="padding-right-11">
+                      <img src="~assets/img/icons/store.svg" alt="store">
+                    </span>
+                    Rumah
+                  </p>
+                  <p class="is-size-6">
+                    <span class="padding-right-8">
+                      <img src="~assets/img/icons/discount.svg" alt="disc">
+                    </span>
+                    Keuntungan 15%
+                  </p>
+                  <div class="progress-wrapper padding-top-22">
+                    <progress class="progress is-danger is-small" value="90" max="100">90%</progress>
+                  </div>
+                  <p class="title has-text-grey padding-top-8 is-6">Terkumpul</p>
+                  <p class="subtitle is-6">Rp. 50.230.000</p>
                   <div class="control margin-top-22">
-                    <input type="submit" class="button is-danger is-fullwidth is-outlined" value="Invest">
+                    <input
+                      type="submit"
+                      class="button is-danger is-fullwidth is-outlined"
+                      value="Invest"
+                    >
                   </div>
                 </div>
               </div>
             </div>
             <div class="column is-4">
-              <div class="card">
-                <div class="card-image">
-                  <figure class="image is-4by3">
-                    <img
-                      src="https://bulma.io/images/placeholders/1280x960.png"
-                      alt="Placeholder image">
-                  </figure>
-                </div>
-                <div class="card-content">
-                  <h5 class="title is-6">Perumnas Teluk</h5>
-                  <p class="is-size-6 "><i class="fas fa-list padding-right-11"></i>Jl Angsana III</p>
-                  <p class="is-size-6 "><i class="fas fa-list padding-right-11"></i>Rumah</p>
-                  <p class="is-size-6 "><i class="fas fa-list padding-right-11"></i>Keuntungan</p>
-                  <div class="control margin-top-22">
-                    <input type="submit" class="button is-danger is-fullwidth is-outlined" value="Invest">
-                  </div>
-                </div>
-              </div>
+        
             </div>
           </div>
         </div>
