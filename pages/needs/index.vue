@@ -5,10 +5,10 @@
       <div class="columns">
         <div class="column is-4">
           <div class="card padding-30 has-text-centered">
-            <img src="~/assets/img/icons/dream.png" alt>
+            <img src="~/assets/img/icons/kebutuhan.svg" alt="icon-saver">
             <div class>
-              <p class="title is-4 has-text-pink">Tabungan Impian</p>
-              <p class="subtitle is-6">Rencanakan Impianmu Bersama Kami</p>
+              <p class="title is-4 has-text-pink">Tabungan Kebutuhan</p>
+              <p class="subtitle is-6">Rencanakan kebutuhan keuangan anda di sini</p>
             </div>
           </div>
         </div>
