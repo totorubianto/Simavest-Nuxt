@@ -141,12 +141,10 @@
             <div class="column is-5 center-column">
 
               <p class="title is-spaced is-4 has-text-warning ">
-               Cari investasi yang Cocok
+               Perancangan
               </p>
               <p class="subtitle is-6 is-line has-text-grey">
-                Di Simavest kamu bisa mencari investasi yang sesuai <br>
-                 dengan kondisi keuangan. Mulai dari investasu <br> 
-                 properti maupun investasi emas
+                Ayo mulai rencanakan financial masa depanmu dengan <br> cara berinvestasi di Simavest
 
               </p>
             </div>
@@ -174,12 +172,10 @@
             <div class="column is-5 center-column">
 
               <p class="title is-spaced is-4 has-text-warning ">
-               Cari investasi yang Cocok
+               Pembagian Hasil
               </p>
               <p class="subtitle is-6 is-line has-text-grey">
-                Di Simavest kamu bisa mencari investasi yang sesuai <br>
-                 dengan kondisi keuangan. Mulai dari investasu <br> 
-                 properti maupun investasi emas
+                Tak perlu khawatir hasil inestasi akan <br> dibagi sesuai perjanjian yang telah dibuat.
 
               </p>
             </div>
@@ -242,7 +238,5 @@ ul.a {
 }
 .navbar-item:active {
   background-color: transparent !important;
-}
-.img-section {
 }
 </style>
