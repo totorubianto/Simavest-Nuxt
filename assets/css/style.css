@@ -50,6 +50,9 @@ body {
 }
 
 /* Padding */
+.padding-30{
+  padding: 30px;
+}
 .padding-top-100{
   padding-top: 200px;
 }
@@ -88,6 +91,9 @@ body {
 /* Top */
 .top-100{
   top: 200px;
+}
+.top-300{
+  top: 250px !important;
 }
 
 

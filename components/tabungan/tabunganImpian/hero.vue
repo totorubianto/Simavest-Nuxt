@@ -1,6 +1,6 @@
 <template>
   <div>
-    <section class="hero has-bg-img is-medium ">
+    <section class="hero has-bg-img is-medium absolute width-100 ">
       <div class="hero-body">
         <div class="container">
           <h1 class="title has-text-white">Investasi bersama Simavest</h1>
