@@ -23,11 +23,16 @@
                 <a class="navbar-item has-text-white">Home</a>
                 <a class="navbar-item has-text-white">Examples</a>
                 <a class="navbar-item has-text-white">Documentation</a>
-                <span class="navbar-item">
-                  <a class="button is-primary is-inverted">
-                    <span>Sign Up</span>
-                  </a>
-                </span>
+                <nuxt-link class="navbar-item" to="login">
+                  <span class="navbar-item">
+                        <a class="button is-primary is-inverted">
+                          <span>Sign Up</span>
+                        </a>
+                  </span>
+                </nuxt-link>
+
+                
+                
               </div>
             </div>
           </div>
@@ -50,7 +55,10 @@
                   <li>Sangatlah mudah</li>
                 </ul>
               </h2>
-              <a class="button is-danger is-inverted is-outlined is-rounded">Invest Sekarang</a>
+              
+              <nuxt-link class="button is-danger is-inverted is-outlined is-rounded" to="login">   
+                  <span>Invest Sekarang</span>
+                </nuxt-link>
             </div>
             <div class="column">
               <img src="~/assets/img/illustration/hero.png" alt>
