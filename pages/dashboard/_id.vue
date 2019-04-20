@@ -7,7 +7,7 @@
           <div class="column is-8 padding-top-100">
             <div class="card">
               <div class="card-content">
-                <b-tabs v-model="activeTab" position="is-centered" class="block" size="is-medium">
+                <b-tabs v-model="activeTab"  class="block" expanded>
                   <b-tab-item label="Deskripsi">
                     <p class="is-size-6">
                       Rumah siap huni Kutisari indah selatan Surabaya
@@ -26,13 +26,7 @@
                       <br>-Row jalan lebar (2,5 mobil loss)
                       <br>-One gate system
                       <br>-Jalan paving dan Bebas banjir
-                      <br>Prediksi
-                      <br>Daerah Surabaya selatan sekarang sedang memasuki pengembangan yang mulai dilirik
-                      <br>oleh para investor, terbukti dengan dibangunnya banyak proyek-proyek apartemen baik
-                      <br>yang kelas menengah maupun yang mewah. Pembangunan infrastruktur jalan juga
-                      sedang terus dikerjakan di daerah Surabaya selatan. Kutisari sebagai salah perumahan
-                      kelas menengah di Surabaya selatan yang diminati juga pasti akan ikut mengalami
-                      kenaikan harga propertinya dikarenakan hal tersebut.
+                     
                     </p>
                     <h4 class="title is-6 padding-top-24">Prediksi</h4>
                     <p class="is-size-6">
