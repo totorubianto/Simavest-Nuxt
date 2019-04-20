@@ -128,7 +128,7 @@
         </div>
       </div>
     </nav>
-    <div class="height"></div>
+
   </div>
 </template>
 
